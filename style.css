@@ -1,7 +1,13 @@
 .bg-box{
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
     background-color: green;
-    background: url(./img/house.jpg ) no-repeat center contain;
-    back
+    background-image: url(./img/house.jpg),
+    url(./img/grass.png),
+    url(./img/bulb.png),
+    url(./img/donut.png),
+    url(./img/hedgehog.webp);
+    background-size: 400px, 200px, 50px, 50px, 50px;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: center, bottom, top, right, left;
 }
